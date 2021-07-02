@@ -5,21 +5,21 @@ const scopes = ['rpc', 'rpc.api', 'messages.read'];
 
 require('dotenv').config();
 const activity = {
-    details: "Playing Granblue Fantasy",
+    details: "Something",
     assets: {
-        large_image: "gbf",
-        large_text: "GRANBLUE FANTASY",
-        small_image: "chrome",
-        small_text: "GRIND",
+        large_image: "some-img",
+        large_text: "text",
+        small_image: "some-img",
+        small_text: "text",
     },
     buttons: [
         {
-            "label":"Check my crew!",
-            "url": "http://game.granbluefantasy.jp/#guild/detail/583779"
+            "label":"button label",
+            "url": "button-url"
         },
         {
-            "label":"Check my profile!",
-            "url":"http://game.granbluefantasy.jp/#profile/15040216"
+            "label":"button label",
+            "url":"button-url"
         }
     ],
     timestamps: {start: Date.now()},
